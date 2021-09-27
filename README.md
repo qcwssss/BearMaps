@@ -36,3 +36,8 @@ An augmented graph that is more powerful than a standard StreetMapGraph. Specifi
 ### AugmentedStreetMapGraph
 * closest
   - The `closest` method takes in map coordinates, `(lon, lat)`, and returns the `id` of the graph `Node`, whose associated map `Point`, is closest to the given coordinates. We pass the given coordinates into our `KDTree`’s `nearest` method to get the nearest `Point`. We then use the `nodePoint` map to find the graph `Node` associated with the returned `Point`.
+
+## Acknowledgements
+Adapted from Project2 of UCB CS61B-Data Structures course, taught by Josh Hug.
+
+My solutions for other projects, labs and homeworks of this course can be found at [CS61B_20Fall_Assignments](https://github.com/qcwssss/CS61B_20Fall). 
