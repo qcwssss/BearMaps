@@ -2,6 +2,14 @@
 
 ## Description
 A Google Map-like web application based on UCB CS61B assginments.
+This map app has several features:
+  - 1. support autocomplete system in the query box by implementing Trie data structure. 
+  - 2. a location-search function to find the nearest vertices based on the user input using KD-Tree data structures.
+  - 3. a turn-by-turn navigation function that draw a closest route using A* search algorithm and generated a sequence of navigation instructions .
+
+
+### View my BearMaps on Heroku server. [BearMaps_Link](http://bearmaps-fa20-cq210829.herokuapp.com/)
+ I also deployed the program on Heroku server, you can open the web link above and see how it works.
 
 
 ## Classes and Data Structures
@@ -26,5 +34,5 @@ An augmented graph that is more powerful than a standard StreetMapGraph. Specifi
 
 ## Algorithms
 ### AugmentedStreetMapGraph
-#### closest
-The `closest` method takes in map coordinates, `(lon, lat)`, and returns the `id` of the graph `Node`, whose associated map `Point`, is closest to the given coordinates. We pass the given coordinates into our `KDTree`’s `nearest` method to get the nearest `Point`. We then use the `nodePoint` map to find the graph `Node` associated with the returned `Point`.
+* closest
+  - The `closest` method takes in map coordinates, `(lon, lat)`, and returns the `id` of the graph `Node`, whose associated map `Point`, is closest to the given coordinates. We pass the given coordinates into our `KDTree`’s `nearest` method to get the nearest `Point`. We then use the `nodePoint` map to find the graph `Node` associated with the returned `Point`.
