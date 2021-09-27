@@ -24,4 +24,7 @@ An augmented graph that is more powerful than a standard StreetMapGraph. Specifi
   - `HashMap<Point, Node> nodePointMap` - a map keeping track what graph Node is associated with a certain Point on the map.
   - `KDTree pointSet` - a k-dimensional tree data structure storesall the points associated with the reachable `Nodes` in this graph.
 
-
+## Algorithms
+### AugmentedStreetMapGraph
+#### closest
+The `closest` method takes in map coordinates, `(lon, lat)`, and returns the `id` of the graph `Node`, whose associated map `Point`, is closest to the given coordinates. We pass the given coordinates into our `KDTree`’s `nearest` method to get the nearest `Point`. We then use the `nodePoint` map to find the graph `Node` associated with the returned `Point`.
