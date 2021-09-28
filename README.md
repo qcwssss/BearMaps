@@ -30,7 +30,7 @@ An augmented graph that is more powerful than a standard StreetMapGraph. Specifi
 
 * Instance Variables
   - `HashMap<Point, Node> nodePointMap` - a map keeping track what graph Node is associated with a certain Point on the map.
-  - `KDTree pointSet` - a k-dimensional tree data structure storesall the points associated with the reachable `Nodes` in this graph.
+  - `KDTree pointSet` - a k-dimensional tree data structure stores all the points associated with the reachable `Nodes` in this graph.
 
 ## Algorithms
 ### AugmentedStreetMapGraph
