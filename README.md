@@ -1,15 +1,14 @@
 # BearMaps Design Document
-
+BearMaps is online map web app on which the users can view and access geo-info.
+I also deployed the program on Heroku server, you can open the web link above and see how it works.
+#### You can view my BearMaps on Heroku server. [BearMaps_Link](http://bearmaps-fa20-cq210829.herokuapp.com/)
+ 
 ## Description
 A Google Map-like web application based on UCB CS61B assginments.
 This map app has several features:
   - 1. support autocomplete system in the query box by implementing Trie data structure. 
   - 2. a location-search function to find the nearest vertices based on the user input using KD-Tree data structures.
   - 3. a turn-by-turn navigation function that draw a closest route using A* search algorithm and generated a sequence of navigation instructions .
-
-
-### View my BearMaps on Heroku server. [BearMaps_Link](http://bearmaps-fa20-cq210829.herokuapp.com/)
- I also deployed the program on Heroku server, you can open the web link above and see how it works.
 
 
 ## Classes and Data Structures
