@@ -1,5 +1,5 @@
-# BearMaps Design Document
-BearMaps is online map web app on which the users can view and access geo-info.
+# BearMaps
+BearMaps is an map-like web app, on which the users can view and access the geo-info.
 I also deployed the program on Heroku server, you can open the web link above and see how it works.
 #### You can view my BearMaps on Heroku server. [BearMaps_Link](http://bearmaps-fa20-cq210829.herokuapp.com/)
  
@@ -33,7 +33,7 @@ An augmented graph that is more powerful than a standard StreetMapGraph. Specifi
 
 ## Algorithms
 ### AugmentedStreetMapGraph
-* closest
+- `closest`
   - The `closest` method takes in map coordinates, `(lon, lat)`, and returns the `id` of the graph `Node`, whose associated map `Point`, is closest to the given coordinates. We pass the given coordinates into our `KDTree`’s `nearest` method to get the nearest `Point`. We then use the `nodePoint` map to find the graph `Node` associated with the returned `Point`.
 
 ## Acknowledgements
