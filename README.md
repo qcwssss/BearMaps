@@ -10,6 +10,12 @@ This map app has several features:
   - 2. a location-search function to find the nearest vertices based on the user input using KD-Tree data structures.
   - 3. a turn-by-turn navigation function that draw a closest route using A* search algorithm and generated a sequence of navigation instructions .
 
+**The images below displays the above functions.**
+     
+   - ***1. autocomplete*** <img width="960" alt="bearmaps3" src="https://user-images.githubusercontent.com/83999326/135198580-090af6c9-1d3a-4b03-8881-1089b92bfbcc.png">
+   - ***2. navigation*** <img width="960" alt="bearmaps4" src="https://user-images.githubusercontent.com/83999326/135198586-23a6c751-4fde-41ec-ac66-61dc8d607aa3.png">
+   - ***3. location search*** <img width="960" alt="bearmaps2" src="https://user-images.githubusercontent.com/83999326/135198588-0b6bc783-ad5e-4452-aa2f-3c8ea54b0a0a.png">
+
 
 ## Classes and Data Structures
 ### RasterAPIHandler
